@@ -1,15 +1,15 @@
 # adapta-video-use
 
-Fork operacional do `video-use` para agentes da equipe. O objetivo deste repo é permitir que Codex, Hermes, Claude Code ou outro agente com shell clone o projeto, leia as instruções, configure o ambiente e edite vídeos usando o mesmo fluxo.
+Projeto para agentes da equipe editarem vídeos por conversa com um fluxo padronizado de transcrição, EDL, renderização, auditoria e exportação XML.
 
-Este fork mantém o núcleo do `video-use` e adiciona:
+Inclui:
 
 - persona e prompts para agentes em `agent/`;
 - guia geral de setup em `AGENT_SETUP.md`;
 - skills de edição de anúncios e memória editorial consolidada;
 - exportação XML para Adobe Premiere Pro;
 - ferramentas de silêncio, auditoria de borda e decupagem com EDL;
-- instruções para operar sem depender de arquivos locais privados.
+- instruções para configurar o ambiente em agentes como Codex, Hermes e Claude Code.
 
 ## Para Que Serve
 
@@ -65,19 +65,6 @@ O agente usa este repo para:
 - `helpers/`: scripts reais de transcrição, render, EDL, XML e auditoria.
 - `skills/`: instruções especializadas para anúncios, Premiere XML, silêncio e animações.
 - `skills/ad-corpus-study/references/`: memória editorial consolidada do corpus de anúncios.
-
-## O Que Não Vem No Repo
-
-Este repo não deve carregar dados privados ou pesados:
-
-- `.env` com API keys;
-- `.venv/`, `.venv_ads/`, `node_modules/`;
-- vídeos, previews, renders e pastas `edit/`;
-- corpus bruto `Anuncios/`;
-- resultados de blind tests;
-- assets de marketing do repo original.
-
-O corpus bruto e os blind tests ficam locais. A memória útil deles já foi consolidada em `skills/ad-corpus-study/references/`.
 
 ## Instalação Rápida
 
@@ -159,7 +146,3 @@ python helpers/remove_silence.py --help
 python helpers/export_premiere_xml.py --help
 python -m unittest tests.test_remove_silence_auto_profile -v
 ```
-
-## Relação Com O Repo Original
-
-Este projeto deriva de `browser-use/video-use`, mas este fork é organizado para uso interno por agentes da equipe, com memória editorial e setup próprios.
