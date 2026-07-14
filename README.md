@@ -64,7 +64,7 @@ O agente usa este repo para:
 - `agent/persona/USER.md`: template de contexto do usuário/equipe.
 - `helpers/`: scripts reais de transcrição, render, EDL, XML e auditoria.
 - `skills/`: instruções especializadas para anúncios, Premiere XML, silêncio e animações.
-- `skills/ad-corpus-study/references/`: memória editorial consolidada do corpus de anúncios.
+- `skills/ad-corpus-study/references/`: memória editorial consolidada do corpus de anúncios, incluindo o padrão de referência `golden-editing-standard.md`.
 
 ## Instalação Rápida
 
@@ -119,6 +119,7 @@ Fluxo base:
 
 Para anúncios, ler também:
 
+- `skills/ad-corpus-study/references/golden-editing-standard.md`
 - `skills/ad-copy-structure/SKILL.md`
 - `skills/ad-editorial-decupagem/SKILL.md`
 - `skills/ad-corpus-study/references/corpus-notes.md`

@@ -67,6 +67,7 @@ First-time install lives in `install.md` (clone, deps, ffmpeg, skill registratio
 - First-use animation setup happens inside the slot directory, never at the video-use repo root. HyperFrames can be invoked with `npx --yes hyperframes ...`; Remotion can be scaffolded with `npx create-video@latest` or installed as a project-local dependency before using its `remotion render` command.
 - This skill vendors `skills/manim-video/`. Read its SKILL.md when building a Manim slot.
 - Ad-specific editing references live in:
+  - `skills/ad-corpus-study/references/golden-editing-standard.md`
   - `skills/ad-corpus-study/references/corpus-notes.md`
   - `skills/ad-corpus-study/references/corpus-report.md`
   - `skills/ad-corpus-study/references/ad-editing-qc.md`

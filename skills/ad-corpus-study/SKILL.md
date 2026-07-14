@@ -23,6 +23,7 @@ Study pairs, not isolated transcripts.
 1. Start with `python helpers/anuncios_corpus_report.py`.
 2. If the local `Anuncios/` corpus is present, regenerate or inspect current reports there.
 3. Always read the versioned memory references in this skill:
+   - `references/golden-editing-standard.md`
    - `references/corpus-report.md`
    - `references/corpus-notes.md`
    - `references/ad-editing-qc.md`
@@ -72,6 +73,7 @@ The portable memory that future agents should read lives in `references/`. Use t
 - whether the residual exception report itself is in sync with the current helpers and corpus state
 - which hybrid pairs are benign overlap versus genuinely dangerous editorial ambiguity
 - whether the editor brief is surfacing hybrid-pair risk directly enough to prevent cross-funnel contamination at edit time
+- which golden-standard checks separate a merely valid XML from an actually shippable ad edit
 
 ## Common Mistakes
 

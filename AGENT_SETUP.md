@@ -45,6 +45,14 @@ O diretório `skills/` contém instruções especializadas. Para anúncios, a me
 skills/ad-corpus-study/references/
 ```
 
+Para editar anúncios, leia primeiro:
+
+```text
+skills/ad-corpus-study/references/golden-editing-standard.md
+```
+
+Esse arquivo consolida o padrão de qualidade, as regras de QC e os aprendizados dos benchmarks de edição.
+
 ## O Que Não Faz Parte Do Repo
 
 Não versionar nem enviar:
